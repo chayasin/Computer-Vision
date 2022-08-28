@@ -159,8 +159,8 @@ Input -> Convolution (Feature maping) -> Pooling -> (Flantern ->) Neural network
 
 ### Convolution/Kernal/filter
 
-Stride เลื่อน kernal ทีละเท่าไหร่
-Padding - add paddle to make same-size output (<-this is not very make sense, however different kernal represent different output)
+- Stride เลื่อน kernal ทีละเท่าไหร่
+- Padding - add paddle to make same-size output (<-this is not very make sense, however different kernal represent different output)
 
 ### Pooling
 
@@ -176,4 +176,6 @@ just use every pixels of the output (from pooling) as the input for ANN.
 
 ### Tranfer Learning
 
-Use per-trained model
+Use per-trained model and then fine tune new model with new data.
+
+This like borrowing kernel, pooling, or even the NN from other model then retuned some nodes again.
