@@ -1,4 +1,4 @@
-# Compuer Vision
+# Computer Vision
 
 - Introdunction
 - Convolution Neural Network
@@ -6,7 +6,7 @@
 
 **Outline**
 
-- [Compuer Vision](#compuer-vision)
+- [Computer Vision](#computer-vision)
   - [Introduction](#introduction)
     - [What computer see?](#what-computer-see)
       - [Pixel](#pixel)
