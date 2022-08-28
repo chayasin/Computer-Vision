@@ -24,7 +24,7 @@
     - [Vanishing Gradient](#vanishing-gradient)
     - [Overfitting](#overfitting)
       - [Use Regularisation](#use-regularisation)
-        - [Use Drop out](#use-drop-out)
+      - [Use Drop out](#use-drop-out)
     - [Data processing](#data-processing)
   - [Convolution Neural Network (CNN)](#convolution-neural-network-cnn)
     - [Convolution/Kernal/filter](#convolutionkernalfilter)
@@ -139,7 +139,7 @@ Note that: if we set the learning rate too hight, the accuracy might jump back a
 
 Just use Ridge or LASSO
 
-##### Use Drop out
+#### Use Drop out
 
 drop random nodes of hand picked nodes off the ANN.
 
